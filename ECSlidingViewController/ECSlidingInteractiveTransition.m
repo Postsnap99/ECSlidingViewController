@@ -75,8 +75,6 @@
                 [self.slidingViewController anchorTopViewToLeftAnimated:YES];
             } else if (self.slidingViewController.currentTopViewPosition == ECSlidingViewControllerTopViewPositionAnchoredLeft) {
                 [self.slidingViewController resetTopViewAnimated:YES];
-            } else if (self.slidingViewController.currentTopViewPosition == ECSlidingViewControllerTopViewPositionAnchoredRight) {
-                [self.slidingViewController resetTopViewAnimated:YES];
             }
             
             break;
